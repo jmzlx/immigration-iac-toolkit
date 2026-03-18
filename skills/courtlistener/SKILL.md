@@ -1,19 +1,12 @@
 ---
 name: courtlistener
 description: >
-  Search and retrieve U.S. case law, court opinions, dockets, and citation networks
-  using the CourtListener API. Use this skill whenever the user wants to look up a
-  court case, search for case law by topic or keyword, find opinions from a specific
-  court or jurisdiction, retrieve the full text of an opinion, check what cases cite
-  a given case (or what it cites), look up attorney disciplinary decisions, or verify
-  a legal citation. Also use for researching Matter of Lozada precedent, ineffective
-  assistance of counsel case law, immigration attorney discipline cases, §245(k)
-  court decisions, or any BIA/AAO opinion research. Trigger on phrases like "find
-  cases about", "look up this case", "search CourtListener", "what does [case name]
-  say", "cases citing", "cited by", "disciplinary cases in [state]", "precedent for",
-  "case law on", "has any court ruled on", "find similar cases", or any request
-  involving U.S. case law research, court opinions, or legal citations — even if
-  the user doesn't mention CourtListener by name.
+  Searches U.S. case law, opinions, dockets, and citation networks via CourtListener
+  API. Triggers on "find cases about", "look up this case", "cases citing", "cited
+  by", "precedent for", "case law on", "has any court ruled on", "find similar
+  cases", "disciplinary cases", or requests involving case law, court opinions,
+  legal citations, Lozada precedent, ineffective assistance of counsel, immigration
+  attorney discipline, or BIA/AAO research — even without mentioning CourtListener.
 ---
 
 # CourtListener API Skill

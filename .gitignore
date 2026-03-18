@@ -1,0 +1,23 @@
+# Distribution artifacts (built from skills/, not source)
+*.skill
+*.zip
+
+# Generated case data (created by bootstrap.py, not shipped)
+case-facts.json
+claims-matrix.json
+evidence-links.json
+bootstrap-report.md
+evidence_index.json
+deadlines.json
+deadlines-dashboard.html
+status-report-*.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Claude Code local config
+.claude/
