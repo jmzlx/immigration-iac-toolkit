@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "courtlistener": {
-      "command": "python3",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp-servers/courtlistener/server.py"],
+      "command": "uv",
+      "args": ["run", "${CLAUDE_PLUGIN_ROOT}/mcp-servers/courtlistener/server.py"],
       "env": {
         "COURTLISTENER_API_KEY": "${COURTLISTENER_API_KEY}"
       }

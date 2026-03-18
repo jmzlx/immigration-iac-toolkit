@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#     "mcp>=1.0.0",
+#     "pydantic>=2.0.0",
+# ]
+# ///
 """
 CourtListener MCP Server
 
