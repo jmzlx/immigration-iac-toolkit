@@ -15,13 +15,28 @@ This skill provides access to the CourtListener REST API (v4) for searching and 
 
 ## Setup
 
-The API key must be available as the environment variable `COURTLISTENER_API_KEY`. All requests require authentication — unauthenticated requests return 401.
+The API key must be available as the environment variable `COURTLISTENER_API_KEY`. Get a free key at https://www.courtlistener.com/sign-in/. All requests require authentication.
 
 Rate limit: 5,000 requests per hour.
 
 ## How to Use This Skill
 
-Run the helper script at `scripts/courtlistener.py` (located in this skill's directory) using Python. The script handles authentication, pagination, and output formatting.
+**Preferred: MCP Server tools** (when plugin is installed with MCP enabled)
+
+If the `courtlistener` MCP server is running, use the MCP tools directly — they run on the host machine with full network access, which works even in sandboxed environments like Cowork:
+
+- `courtlistener:courtlistener_search_opinions` — Search case law by keyword, court, date
+- `courtlistener:courtlistener_lookup_citation` — Look up a case by citation string
+- `courtlistener:courtlistener_get_opinion` — Get full opinion text by cluster ID
+- `courtlistener:courtlistener_cited_by` — Find cases citing a given opinion
+- `courtlistener:courtlistener_cites` — Find cases cited by a given opinion
+- `courtlistener:courtlistener_get_docket` — Get docket details
+- `courtlistener:courtlistener_search_dockets` — Search dockets
+- `courtlistener:courtlistener_search_courts` — Search for court IDs
+
+**Fallback: CLI script** (when running from terminal or MCP not available)
+
+Run the helper script at `scripts/courtlistener.py` using Python. The script handles authentication, pagination, and output formatting.
 
 ### Quick Reference
 
