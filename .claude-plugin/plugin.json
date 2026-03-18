@@ -1,0 +1,22 @@
+{
+  "name": "immigration-iac-toolkit",
+  "description": "Legal case management toolkit for immigration ineffective assistance of counsel (IAC) claims under Matter of Lozada. Includes dynamic document analysis, evidence management, multi-jurisdiction bar complaint response drafting, motion-to-reopen assembly, USCIS research, deadline tracking, and CourtListener case law research. Scans workspace documents to build a knowledge graph with gap analysis and unknown categorization.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Juan Salas"
+  },
+  "homepage": "https://github.com/jmsalas/immigration-iac-toolkit",
+  "license": "MIT",
+  "keywords": [
+    "immigration",
+    "legal",
+    "lozada",
+    "ineffective-assistance-of-counsel",
+    "bar-complaint",
+    "uscis",
+    "motion-to-reopen",
+    "evidence-management",
+    "courtlistener"
+  ],
+  "category": "legal"
+}
