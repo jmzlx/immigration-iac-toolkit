@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "immigration-iac-toolkit",
-      "source": ".",
+      "source": "./",
       "description": "7-skill toolkit: dynamic document analysis, bar complaint reply drafting, motion-to-reopen assembly, evidence management, deadline tracking, USCIS research, and CourtListener case law search.",
       "version": "1.0.0",
       "category": "legal",
