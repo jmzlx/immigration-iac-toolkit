@@ -1,0 +1,21 @@
+{
+  "name": "immigration-iac-toolkit",
+  "owner": {
+    "name": "Juan Salas",
+    "email": "jmsalas@gmail.com"
+  },
+  "metadata": {
+    "description": "Legal case management toolkit for immigration IAC cases under Matter of Lozada",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "immigration-iac-toolkit",
+      "source": ".",
+      "description": "7-skill toolkit: dynamic document analysis, bar complaint reply drafting, motion-to-reopen assembly, evidence management, deadline tracking, USCIS research, and CourtListener case law search.",
+      "version": "1.0.0",
+      "category": "legal",
+      "tags": ["immigration", "legal", "lozada", "bar-complaint", "uscis"]
+    }
+  ]
+}
